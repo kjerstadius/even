@@ -102,17 +102,17 @@
                                         {{ page.summary | safe }}
                                     </div>
                                     <div class="read-more">
-                                        <a href="{{ page.permalink }}">Read more...</a>
+                                        <a href="{{ page.permalink }}">Läs mer...</a>
                                     </div>
                                 </article>
                             {% endfor %}
                         </div>
                         <nav class="pagination">
                             {% if paginator.previous %}
-                                <a class="previous" href="{{ paginator.previous }}">‹ Previous</a>
+                                <a class="previous" href="{{ paginator.previous }}">‹ Föregående</a>
                             {% endif %}
                             {% if paginator.next %}
-                                <a class="next" href="{{ paginator.next }}">Next ›</a>
+                                <a class="next" href="{{ paginator.next }}">Nästa ›</a>
                             {% endif %}
                         </nav>
                     {% endblock content %}
